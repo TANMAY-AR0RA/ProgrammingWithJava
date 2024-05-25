@@ -1,7 +1,6 @@
 public class BookRunner {
     public static void main(String[] args) {
-        Book javaProgramming = new Book();
-        javaProgramming.setNoOfCopies(100);
+        Book javaProgramming = new Book(1000);
         System.out.println(javaProgramming.getNoOfCopies());
 
         javaProgramming.increaseNoOfCopies(50);
