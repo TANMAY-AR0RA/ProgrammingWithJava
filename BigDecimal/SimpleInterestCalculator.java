@@ -12,7 +12,6 @@ public class SimpleInterestCalculator {
     public BigDecimal calculateTotalValue(int noOfYears) {
         this.noOfYears = new BigDecimal(noOfYears);
         return principal.add(principal.multiply(interest)
-                .multiply(this.noOfYears)
-                );
+                .multiply(this.noOfYears));
     }
 }
