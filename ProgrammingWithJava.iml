@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Basics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Encapsulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Constructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntegerDatatypesExercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BigDecimal" isTestSource="false" />
+
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
