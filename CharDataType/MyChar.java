@@ -1,5 +1,5 @@
 public class MyChar {
-    private char ch;
+    private final char ch;
     public MyChar(char x) {
         this.ch = x;
     }
@@ -12,21 +12,29 @@ public class MyChar {
         return false;
     }
 
-    public boolean isNumber() {
-        return true;
+    public boolean isDigit() {
+        if(ch >= 45 && ch <= 54)
+            return true;
+        return false;
     }
 
     public static void printLowerCaseAlphabets() {
-        for(int i = 97; i <= 122; i++){
-            System.out.print((char)i + "\t");
+        for(char ch = 'a'; ch <= 'z'; ch++){
+            System.out.print(ch + "\t");
         }
         System.out.println();
     }
 
     public static void printUpperCaseAlphabets() {
-        for(int i = 65; i <= 90; i++){
-            System.out.print((char)i + "\t");
+        for(char ch = 'A'; ch <= 'Z'; ch++){
+            System.out.print(ch + "\t");
         }
         System.out.println();
+    }
+
+    public boolean isConsonant() {
+        if(!isVowel() && !isDigit())
+            return true;
+        return false;
     }
 }
