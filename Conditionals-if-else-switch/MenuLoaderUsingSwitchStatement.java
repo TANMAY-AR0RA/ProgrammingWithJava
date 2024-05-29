@@ -15,7 +15,7 @@ public class MenuLoaderUsingSwitchStatement {
             System.out.print("---Choose Operation---: ");
 
             int operation = sc.nextInt();
-            int result = 0;
+            int result;
             switch(operation){
             case 1: result = number1 + number2;
             break;
