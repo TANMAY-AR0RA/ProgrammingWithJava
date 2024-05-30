@@ -5,15 +5,17 @@ public class IsWeekDay {
         System.out.println("Enter a number of day between 0(Sunday) to 6(Saturday): ");
         Scanner sc = new Scanner(System.in);
         int dayNumber = sc.nextInt();
-        isWeekDay(dayNumber);
+        System.out.println(isWeekDay(dayNumber));
     }
     public static boolean isWeekDay(int dayNumber){
         switch(dayNumber){
-            case 0, 6:
-                return false;
-            case 1, 2, 3, 4, 5:
-                System.out.println("It's a week day");
-                return true;
+            case 0:
+            case 6: return false;
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5: return true;
             default: System.out.println("Invalid Input");
                 return false;
         }
