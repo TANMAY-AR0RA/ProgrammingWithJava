@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BigDecimal" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CharDataType" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Conditionals-if-else-switch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
