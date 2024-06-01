@@ -1,12 +1,14 @@
 public class MyNumberMain {
     public static void main(String[] args) {
-        int n = 9;
+        int n = 6;
         MyNumber number = new MyNumber(n);
         number.isPrime(); //Is a number Prime?
         int sum = number.sumUptoN(); //Sum of  numbers upto n
         //1 + 2 + 3 + 4 + 5
-        System.out.println("Sum of " + n + "numbers is: " + sum);
+        System.out.println("Sum of numbers upto " + n + " is: " + sum);
+
         int sumOfDivisors = number.sumOfDivisors(); // sum of all divisors except 1 and itself
+        System.out.println("Sum of divisors of "  + n + " is: " + sumOfDivisors);
 
         number.printANumberTriangle();
         //1
