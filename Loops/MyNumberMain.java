@@ -1,6 +1,6 @@
 public class MyNumberMain {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 8;
         MyNumber number = new MyNumber(n);
         number.isPrime(); //Is a number Prime?
         int sum = number.sumUptoN(); //Sum of  numbers upto n
