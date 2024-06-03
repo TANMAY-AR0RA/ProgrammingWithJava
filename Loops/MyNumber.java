@@ -22,17 +22,16 @@ public class MyNumber {
         return sum;
     }
 
-    public void isPrime(){
-        if(n == 1)
-            System.out.println(n + " is neither prime nor composite");
+    public boolean isPrime(){
 
         for(int i = 2; i < n; i++){
             if(n % i == 0){
                 System.out.println(n + " is not a prime number.");
-                return;
+                return false;
             }
         }
         System.out.println(n + " is a prime number.");
+        return true;
     }
     public void printANumberTriangle(){
         for (int i = 1; i <= n; i++) {

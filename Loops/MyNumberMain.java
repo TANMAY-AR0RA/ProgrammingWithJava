@@ -2,7 +2,8 @@ public class MyNumberMain {
     public static void main(String[] args) {
         int n = 8;
         MyNumber number = new MyNumber(n);
-        number.isPrime(); //Is a number Prime?
+        boolean isPrime = number.isPrime(); //Is a number Prime?
+        System.out.println(isPrime);
         int sum = number.sumUptoN(); //Sum of  numbers upto n
         //1 + 2 + 3 + 4 + 5
         System.out.println("Sum of numbers upto " + n + " is: " + sum);
