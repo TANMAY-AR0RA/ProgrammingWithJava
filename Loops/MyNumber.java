@@ -13,6 +13,7 @@ public class MyNumber {
     }
 
     public int sumOfDivisors() {
+
         int sum = 0;
         for(int i = 2; i < n; i++){
             if(n % i == 0){
