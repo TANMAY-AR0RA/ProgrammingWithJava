@@ -24,7 +24,7 @@ public class MyNumber {
     }
 
     public boolean isPrime(){
-        if(n < 2){
+        if(n < 2){ // number 0, 1 or negative numbers
             return false;
         }
 
