@@ -4,7 +4,7 @@ public class StudentRunner {
     public static void main(String[] args) {
         String name = "Tanmay";
         int[] listOfMarks = {95, 95, 95, 98, 80};
-        Student student = new Student(name, listOfMarks);
+        StudentAL student = new StudentAL(name, listOfMarks);
         int number = student.getNumberOfMarks();
         System.out.println("Number of marks: " + number);
         int sum = student.getTotalSumOfMarks();

@@ -47,4 +47,7 @@ public class Student {
         int average = sum / number;
         return new BigDecimal(average);
     }
+
+    public void addNewMark(int i) {
+    }
 }
