@@ -21,9 +21,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Interface" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Queue - PriorityQueue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Set" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FunctionalProgramming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Map" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Thread" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
